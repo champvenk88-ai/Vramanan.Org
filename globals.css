@@ -1,0 +1,9 @@
+:root{--bg:#FEFCF8;--bg-warm:#FAF6EE;--bg-cream:#F5EFE3;--bg-deep:#1B1710;--bg-dark-card:#252017;--green-deep:#2D5016;--green-mid:#3D6B22;--green-light:#5A8F3A;--green-pale:#E8F0E0;--green-glow:rgba(45,80,22,.08);--gold:#C49A2B;--gold-light:#D4B254;--earth:#8B6F47;--text-dark:#1B1710;--text-body:#3D3628;--text-secondary:#6B5D4A;--text-muted:#9A8B74;--text-light:#F5EFE3;--border:rgba(27,23,16,.08);--radius:16px;--radius-sm:10px;--shadow-book:8px 12px 40px rgba(27,23,16,.2);--shadow-card:0 8px 40px rgba(27,23,16,.1);--font-display:'Cormorant Garamond',Georgia,serif;--font-body:'Outfit',system-ui,sans-serif;--font-hand:'Caveat',cursive}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text-body);font-family:var(--font-body);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes leafFloat{0%,100%{transform:translateY(0) rotate(0deg)}50%{transform:translateY(-8px) rotate(3deg)}}
+@keyframes gentlePulse{0%,100%{opacity:.4}50%{opacity:.7}}
+@keyframes dotBounce{0%,80%,100%{transform:translateY(0)}40%{transform:translateY(-5px)}}
+@keyframes chatPop{from{opacity:0;transform:scale(.8) translateY(20px)}to{opacity:1;transform:scale(1) translateY(0)}}
+@keyframes pulseRing{0%{box-shadow:0 0 0 0 rgba(45,80,22,.4)}70%{box-shadow:0 0 0 12px rgba(45,80,22,0)}100%{box-shadow:0 0 0 0 rgba(45,80,22,0)}}
